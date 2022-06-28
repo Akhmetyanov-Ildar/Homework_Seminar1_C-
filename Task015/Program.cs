@@ -18,4 +18,3 @@ switch (num)
     case 7: Console.WriteLine("да"); break;
     default: Console.WriteLine("Нет такого дня недели"); break;
 }
-Console.WriteLine(num.ToString()[2]);
