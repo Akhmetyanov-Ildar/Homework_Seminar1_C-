@@ -7,5 +7,9 @@
 Console.Write("Введите трехзначное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int result = (num / 10) % 10;
-Console.WriteLine(result);
+while (num < 100 || num > 999)
+{
+    Console.WriteLine("Вы ввели неверное число, введите трехзначное число");
+    num = Convert.ToInt32(Console.ReadLine());
+}
+Console.WriteLine((num / 10) % 10);
